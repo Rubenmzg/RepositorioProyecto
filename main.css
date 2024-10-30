@@ -1,14 +1,29 @@
 *
 {
-    font-family: sans-serif;
+    font-family: sans-serif !important;
     text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
 }
 
 body
 {
     background-color: #111;
     margin: 0;
+}
+
+.text-center
+{
     text-align: center;
+}
+
+.iconosweb
+{
+    width: 16px;
+    height: 16px;
 }
 
 .hidden
@@ -51,17 +66,20 @@ body
 .button-blue-bar
 {
     float: right;
-    width: 42px;
-    height: 38px;
+    width: 45px;
+    height: 40px;
     margin-top: 30px;
     margin-right: 30px;
-    border: none;
     border-radius: 5px;
+    border: 2px solid #1379;
+    background-color: #147a;
+    box-shadow: 0 0 6px #225f;
+    cursor: pointer;
 }
 
 .icon-bar
 {
-    background-color: black;
+    background-color: #fff;
     display: block;
     width: 22px;
     height: 2px;
@@ -80,7 +98,7 @@ body
     box-sizing: border-box;
     background-color: #2225;
     width: 100%;
-    height: 35px;
+    height: 40px;
     padding: 8px;
 }
 
@@ -88,12 +106,116 @@ body
 {
     display: inline;
     margin: 0 30px;
-    background-color: #135f;
-    padding: 4px 10px;
     border-radius: 5px;
 }
 
 .link-header
 {
+    background-color: #135f;
+    width: 100px;
+    height: 25px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.link-header > a
+{
     color: #fff;
+}
+
+.navbar-colapse
+{
+    display: none;
+    background-color: #135f;
+    width: 100%;
+    top: 20px;
+    z-index: 1000;
+}
+
+#menu-colapse:checked ~ .navbar-colapse {
+    display: block;
+}
+
+.navbar-nav
+{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-navcolapse
+{
+    color: #fff;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.carrito
+{
+    font-size: 16px;
+}
+
+.navbar-nav
+{
+    border-top: 1px solid #124f;
+}
+
+.subtit-categories
+{
+    display: inline;
+    color: #fff;
+    margin-left: 5px;
+    font-weight: 400;
+    text-align: left;
+    align-content: center;
+    width: 50%;
+    height: 30px;
+}
+
+.icon-categories
+{
+    display: inline;
+    align-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.container-categories
+{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #135f;
+    width: 95%;
+    height: 50px;
+}
+
+.cont-part-categories
+{
+    display: block;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content-main
+{
+    display: grid;
+    position: absolute;
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+}
+
+.product-main
+{
+    background-color: red;
+    width: 90%;
+    height: 100%;
+    margin: auto;
 }
