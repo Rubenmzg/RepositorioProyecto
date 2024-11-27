@@ -4,6 +4,11 @@
     text-decoration: none;
 }
 
+a
+{
+    color: white;
+}
+
 ul
 {
     list-style: none;
@@ -214,8 +219,26 @@ body
 
 .product-main
 {
-    background-color: red;
+    color: black;
+    background-color: white;
     width: 90%;
     height: 100%;
     margin: auto;
+    align-content: center;
+    
+}
+
+.img-product-main
+{
+
+    width: 85%;
+    height: 85%;
+
+}
+
+.txt-product-main
+{
+
+    background-color: blue;
+
 }
