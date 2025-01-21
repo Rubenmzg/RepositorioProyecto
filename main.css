@@ -225,6 +225,7 @@ body
     height: 100%;
     margin: auto;
     align-content: center;
+    border-radius: 10px;
     
 }
 
@@ -239,6 +240,9 @@ body
 .txt-product-main
 {
 
-    background-color: blue;
+    padding: 8px;
+    margin: 10px 20px 30px 20px;
+    background-color: #333a;
+    border-radius: 8px;
 
 }
