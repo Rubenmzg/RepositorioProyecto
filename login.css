@@ -1,95 +1,104 @@
-[33mcommit a99e4fcf7bd27ff19c023e7ba16a65fb3a9870c7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Wed Nov 27 13:53:21 2024 -0600
+*
+{
 
-    img
+    color: #fff;
 
-[33mcommit 15e871fe71230e288293e5d8a9477e9448bbc04d[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Wed Nov 27 13:51:33 2024 -0600
+}
 
-    main.css
+.text-align
+{
 
-[33mcommit 7e969fafcddefffeeb17b2b233074635fccaeba0[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Wed Nov 27 13:51:12 2024 -0600
+    text-align: center;
 
-    index.html
+}
 
-[33mcommit f86a6f4dddcaa2aff566e696f1084378b50ae348[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Wed Oct 30 15:06:30 2024 -0600
+.body-login
+{
 
-    Agregando apartados a pagina principal
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
 
-[33mcommit dc0ab786990d0d0d3ea35f7f66e2319cc9befde5[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Sun Oct 20 23:14:47 2024 -0600
+}
 
-    Haciendo cambios y agregando componentes al header
+.login-container
+{
 
-[33mcommit 5de2d483615cd29e5fb4942a80b3f2126968f417[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Sat Oct 19 01:22:13 2024 -0600
+    display: flex;
+    margin: 10px;
+    margin-top: 10%;
+    height: 300px;
+    justify-content: center;
+    background-color: #135f;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
 
-    Haciendole un update a la barra de navegacion y mejorando la parte de el diseño
+}
 
-[33mcommit aa59f08e7319783fa09596b52d43a3adb49c9b0b[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Wed Oct 16 15:33:04 2024 -0600
+.cont-login
+{
 
-    Intentando mejorar la barra de navejacion
+    box-sizing: border-box;
+    margin: auto;
 
-[33mcommit 2daf350d2d9c3bbefe309863aacf7f7a857211f3[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Wed Oct 16 01:55:40 2024 -0600
+}
 
-    Agregando algunas pruebas y diseños que podrian funcionar para empezar a hacer la base de la pagina de inicio
+.p-login
+{
 
-[33mcommit 7a11ec89acf0d9464e223969d460ba0f24a7de40[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Wed Oct 16 00:50:02 2024 -0600
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 12%;
 
-    Agregando algunos iconos para la pagina web
+}
 
-[33mcommit 067a5259446c71ee339793f7ebc9bad1ee71828b[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Tue Oct 15 01:28:52 2024 -0600
+.input-login
+{
 
-    Agregue un <Div> como un contenedor para h1 y agregue diseño al titulo
+    width: 75%;
+    height: 25px;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #1aff;
+    outline: none;
+    transition: border-bottom 1s ease;
+    caret-color: #1aff;
 
-[33mcommit dd8c2774360ab3867eafbd495f26d9e70430c92e[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Tue Oct 15 00:54:40 2024 -0600
+}
 
-    Agregando el archivo .gitignore para que ignore los archivos que terminen con .txt
+.secc-login
+{
 
-[33mcommit b44ca26040bafd7781ced5734a3bfeea1195ac04[m
-Author: Rubenmzg <ralex_2103@hotmail.com>
-Date:   Tue Oct 15 00:31:54 2024 -0600
+    margin-top: 20%;
+    margin-bottom: 5%;
 
-    Añadiendo codigo de prueba a los archivos index.html y indexCSS.html
+}
 
-[33mcommit 15b26de2d66bfc37a4824a4d067a0a906d9ef5bb[m
-Author: Ruben Alejandro Manzanarez Gaxiola <118768383+Rubenmzg@users.noreply.github.com>
-Date:   Tue Oct 15 00:23:09 2024 -0600
+.h2-login
+{
 
-    Creando hoja de estilos index
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
 
-[33mcommit 3fc4e11be5161b032bc7e020ee5e44b36285aadc[m
-Author: Ruben Alejandro Manzanarez Gaxiola <118768383+Rubenmzg@users.noreply.github.com>
-Date:   Tue Oct 15 00:21:59 2024 -0600
+}
 
-    Creando el archivo html index
+.login-pregunta
+{
 
-[33mcommit 1d5126e004aafb3a7f226654bfeb6c88c311c23d[m
-Author: Ruben Alejandro Manzanarez Gaxiola <118768383+Rubenmzg@users.noreply.github.com>
-Date:   Mon Oct 14 23:32:51 2024 -0600
+    font-size: 13px;
 
-    Cambiando el nombre del repositorio
+}
 
-[33mcommit 4aa5af432d02679deb262b6816c057290c2db029[m
-Author: Ruben Alejandro Manzanarez Gaxiola <118768383+Rubenmzg@users.noreply.github.com>
-Date:   Mon Oct 14 14:23:30 2024 -0600
+.a-login-pregunta
+{
 
-    Initial commit
+    color: #18ff;
+
+}
