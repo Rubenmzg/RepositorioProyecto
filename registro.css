@@ -1,0 +1,156 @@
+*
+{
+
+    color: #fff;
+
+}
+
+.text-align
+{
+
+    text-align: center;
+
+}
+
+.body-login
+{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.login-container
+{
+
+    display: block;
+    margin: 10px;
+    margin-top: 10%;
+    justify-content: center;
+    background-color: #135f;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #000;
+
+}
+
+.cont-login
+{
+
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px 0 10px 0;
+
+}
+
+.p-login
+{
+
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 12%;
+
+}
+
+.input-login
+{
+
+    width: 75%;
+    height: 25px;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #9999;
+    outline: none;
+    transition: border-bottom 0.5s ease, width 0.4s ease;
+    caret-color: #ffff;
+
+}
+
+
+.input-login:hover
+{
+
+    width: 80%;
+    border-bottom: 2px solid #ffff;
+
+}
+
+.secc-login
+{
+
+    margin-top: 20%;
+    margin-bottom: 5%;
+
+}
+
+.h2-login
+{
+
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+
+}
+
+.login-pregunta
+{
+
+    font-size: 13px;
+
+}
+
+.a-login-pregunta
+{
+
+    color: #18ff;
+
+}
+
+.log-req
+{
+
+    color: #f54;
+
+}
+
+.log-rad
+{
+
+    margin: 5px 0 5px 0;
+    width: 10%;
+
+}
+
+.log-date
+{
+
+    width: 75%;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 0;
+    border: 0;
+    background-color: #00000055;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.log-submit
+{
+
+    font-weight: 600;
+    margin-top: 20px;
+    width: 75%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #00000055;
+    border: 2px solid #00000055;
+
+}

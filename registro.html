@@ -22,7 +22,7 @@
         <div class="dark-bar">
 
             <div class="link-darkbar">
-                <button type="button" class="link-header"><a href="registro.html">Registrar</a></button>
+                <button type="button" class="link-header"><a href="login.html">Inicio Sesion</a></button>
             </div>
 
         </div>
@@ -75,7 +75,7 @@
 
             <div class="cont-login">
 
-                <h2 class="text-align h2-login">INICIO DE SESION</h2>
+                <h2 class="text-align h2-login">REGISTRO</h2>
 
                 <form class="secc-login" action="">
 
@@ -84,17 +84,23 @@
 
                     <p class="p-login">Contraseña <span class="log-req">*</span></p>
                     <input class="input-login" type="password" required>
-                    <input class="log-submit" type="submit" value="Iniciar Sesion">
+
+                    <p class="p-login">Edad <span class="log-req">*</span></p>
+                    <input class="input-login" type="text" required>
+
+                    <p class="p-login">Fecha de nacimiento <span class="log-req">*</span></p>
+                    <input class="log-date" type="date" required>
+
+                    <p class="p-login">Genero <span class="log-req">*</span></p>
+                    <input class="log-rad" type="radio" name="genero" value="masculino" required>Masculino
+                    <input class="log-rad" type="radio" name="genero" value="femenino" required>Femenino
+                    <input class="log-rad" type="radio" name="genero" value="Otro" required>Otro
+
+                    <input class="log-submit" type="submit" value="Registrar">
 
                 </form>
 
             </div>
-
-        </div>
-
-        <div>
-
-            <p class="login-pregunta">¿No tienes cuanta?, presiona <a class="a-login-pregunta" href="registro.html"> Aqui </a> para registrarte</p>
 
         </div>
 
@@ -103,16 +109,6 @@
             <!--==========================================================
                         FOOTER
     ==============================================================-->
-
-    <div class="footer">
-
-        <div class="footer-content">
-
-            <p>CopyRight 2025</p>
-
-        </div>
-
-    </div>
 
 </body>
 
